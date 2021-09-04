@@ -79,3 +79,41 @@ header{
 .sidebar i{
     padding-right: 10px;
 }
+
+label #sidebar_btn{
+    z-index: 1;
+    color: #fff;
+    position: fixed;
+    cursor: pointer;
+    left: 300px;
+    font-size: 20px;
+    margin: 5px 0;
+    transition: .5s;
+    transition-property: color;
+}
+label #sidebar_btn:hover{
+    color: #19b3d3;
+}
+
+#check:checked ~ .sidebar{
+    left: -185px;
+}
+
+#check:checked ~ .sidebar a span{
+    display: none;
+}
+
+#check:checked ~ .sidebar a{
+    font-size: 20px;
+    margin-left: 165px;
+    width: 100%;
+}
+
+.content{
+    width: (100% - 250px);
+    margin-top: 60px;
+    padding: 20px;
+    margin-left: 250px;
+    height: 100vh;
+    transition: .5s;
+}
