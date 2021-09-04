@@ -183,5 +183,42 @@ label #sidebar_btn:hover{
         padding: 10px 20px;
     }
 
+    .nav_bar .nav_btn{
+        color: #fff;
+        font-size: 22px;
+        cursor: pointer;
+        transition: .5s;
+        transition-property: color;
+    }
 
+    .nav_bar .nav_btn:hover{
+        color: #19b3d3;
+    }
+
+    .mobile_nav_items{
+        margin-top: 70px;
+        background-color: #2f323a;
+        
+    }
+
+    .mobile_nav_items a{
+        color: #fff;
+        display: block;
+        text-align: center;
+        letter-spacing: 1px;
+        line-height: 60px;
+        text-decoration: none;
+        box-sizing: border-box;
+        transition: .5s;
+        transition-property: background;
+    }
+
+    .mobile_nav_items a:hover{
+        background-color: #19b3d3;
+    }
+
+    .mobile_nav_items i{
+        padding-right: 10px;
+
+    }
 }
