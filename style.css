@@ -117,3 +117,20 @@ label #sidebar_btn:hover{
     height: 100vh;
     transition: .5s;
 }
+
+#check:checked ~ .content{
+    margin-left: 60px;
+}
+
+
+#check{
+    display: none;
+}
+
+.mobile_nav{
+    display: none;
+}
+
+.left-area i{
+    display: none;
+}
