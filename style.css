@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+body{
+    background-color: #e4e4e4;
+}
+
 *{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-
 
 .sidebar{
     background-color: #2f323a;
@@ -20,6 +23,11 @@
     overflow-y: auto;
     border-radius: 0px 5px 5px 0;
 }
+
+.sidebar .logo{
+    
+}
+
 
 .sidebar a{
     color: #fff;
@@ -51,6 +59,7 @@ label #sidebar_btn{
     transition: .5s;
     transition-property: color;
 }
+
 label #sidebar_btn:hover{
     color: #19b3d3;
 }
@@ -71,11 +80,10 @@ label #sidebar_btn:hover{
 
 .content{
     width: (100% - 250px);
-    padding: 20px;
     margin-left: 250px;
-    height: 100vh;
+    padding: 20px;
+    height: calc(100vh - 5vh);
     transition: .5s;
-    background-color: red;
 }
 
 #check:checked ~ .content{
