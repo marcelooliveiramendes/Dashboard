@@ -11,7 +11,7 @@ body{
 }
 
 .sidebar{
-    background-color: #2f323a;
+    background-color: #fff;
     position: fixed;
     top: 0;
     left: 0;
@@ -25,12 +25,17 @@ body{
 }
 
 .sidebar .logo{
-    
+    width: 250px;
+    height: 200px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
 .sidebar a{
-    color: #fff;
+    color: rgb(88, 88, 88);
     display: block;
     width: 100%;
     line-height: 60px;
@@ -38,10 +43,12 @@ body{
     padding-left: 40px;
     box-sizing: border-box;
     transition: .5s;
-    transition-property: background;
 }
 .sidebar a:hover{
-    background-color: #19b3d3;
+    background: rgb(33,219,155);
+    background: linear-gradient(90deg, rgba(33,219,155,0.23859762061725964) 0%, rgba(24,210,139,0.031211256980895996) 10%, rgba(14,200,122,0) 100%);
+    border-left: 5px solid rgb(61, 202, 148);
+    transition: .4s;
 }
 
 .sidebar i{
