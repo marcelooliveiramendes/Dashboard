@@ -48,6 +48,7 @@ body{
     box-sizing: border-box;
     transition: .5s;
 }
+
 .sidebar a:hover{
     background: rgb(14, 124, 187);
     background: linear-gradient(90deg, rgba(0, 119, 255, 0.192) 0%, rgba(24,210,139,0.031211256980895996) 10%, rgba(14,200,122,0) 100%);
@@ -59,13 +60,38 @@ body{
     padding-right: 10px;
 }
 
+.sidebar .logout_btn a{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+    color: rgb(88, 88, 88);
+    display: block;
+    width: 100%;
+    line-height: 60px;
+    text-decoration: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+.sidebar .logout_btn i{
+    padding-right: 10px;
+}
+.sidebar .logout_btn a:hover{
+    background: rgb(187, 14, 14);
+    background: linear-gradient(90deg, rgba(255, 0, 0, 0.192) 0%, rgba(24,210,139,0.031211256980895996) 10%, rgba(14,200,122,0) 100%);
+    border-left: 5px solid rgb(255, 0, 0);
+    transition: .4s;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+
 .content{
     width: (100% - 250px);
     margin-left: 250px;
     padding: 20px;
     height: 100%;
     transition: .5s;
-    background-color: red;
 }
 
 .mobile_nav{
