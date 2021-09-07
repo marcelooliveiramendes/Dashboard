@@ -102,22 +102,6 @@ header{
     display: none;
 }
 
-/* #check:checked ~ .sidebar a span{
-    display: none;
-}
-
-#check:checked ~ .sidebar a{
-    font-size: 20px;
-    margin-left: 165px;
-    width: 100%;
-}
-
-#check:checked ~ .content{
-    margin-left: 60px;
-} */
-
-
-
 
 @media screen and (max-width: 780px) {
     .sidebar{
@@ -174,7 +158,6 @@ header{
         box-sizing: border-box;
         transition: .5s;
         transition-property: background;
-        animation: ShowMobileNavbar .5s;
     }
 
     .mobile_nav_items a:hover{
@@ -185,21 +168,10 @@ header{
         padding-right: 10px;
 
     }
-
-    #check:checked ~ .mobile_nav{
-        top: -185px;
-        
-    }
     
-    #check:checked ~ .mobile_nav{
+    .mobile_nav.actived{
         display: none;
     }
-}
 
-@keyframes ShowMobileNavbar {
-    from{
-        top: -185px;
-    } to {
-        top: 0;
-    }
+    
 }
