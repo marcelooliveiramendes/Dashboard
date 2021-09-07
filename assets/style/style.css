@@ -151,7 +151,7 @@ header{
     .mobile_nav_items a{
         color: rgb(88, 88, 88);
         display: block;
-        text-align: center;
+        padding-left: 40px;
         letter-spacing: 1px;
         line-height: 60px;
         text-decoration: none;
