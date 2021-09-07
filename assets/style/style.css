@@ -49,9 +49,9 @@ body{
     transition: .5s;
 }
 .sidebar a:hover{
-    background: rgb(33,219,155);
-    background: linear-gradient(90deg, rgba(33,219,155,0.23859762061725964) 0%, rgba(24,210,139,0.031211256980895996) 10%, rgba(14,200,122,0) 100%);
-    border-left: 5px solid rgb(61, 202, 148);
+    background: rgb(14, 124, 187);
+    background: linear-gradient(90deg, rgba(0, 119, 255, 0.192) 0%, rgba(24,210,139,0.031211256980895996) 10%, rgba(14,200,122,0) 100%);
+    border-left: 5px solid rgb(17, 0, 255);
     transition: .4s;
 }
 
