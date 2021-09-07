@@ -116,17 +116,11 @@ header{
     margin-left: 60px;
 } */
 
-#check{
-    display: none;
-}
+
 
 
 @media screen and (max-width: 780px) {
     .sidebar{
-        display: none;
-    }
-
-    #sidebar_btn{
         display: none;
     }
     
@@ -152,12 +146,7 @@ header{
         font-size: 26px;
     }
     header h3{
-
-    }
-
-
-    #check:checked ~ .content{
-        margin-left: 0;
+        margin-left: 20px;
     }
     
     .mobile_nav{
@@ -170,7 +159,9 @@ header{
 
     .mobile_nav_items{
         background-color: #fff;
-        
+        border-radius: 0px 0px 10px 10px;
+        outline: none;
+        overflow: hidden;
     }
 
     .mobile_nav_items a{
@@ -183,6 +174,7 @@ header{
         box-sizing: border-box;
         transition: .5s;
         transition-property: background;
+        animation: ShowMobileNavbar .5s;
     }
 
     .mobile_nav_items a:hover{
@@ -192,5 +184,22 @@ header{
     .mobile_nav_items i{
         padding-right: 10px;
 
+    }
+
+    #check:checked ~ .mobile_nav{
+        top: -185px;
+        
+    }
+    
+    #check:checked ~ .mobile_nav{
+        display: none;
+    }
+}
+
+@keyframes ShowMobileNavbar {
+    from{
+        top: -185px;
+    } to {
+        top: 0;
     }
 }
