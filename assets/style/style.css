@@ -71,19 +71,6 @@ label #sidebar_btn:hover{
     color: #19b3d3;
 }
 
-#check:checked ~ .sidebar{
-    left: -185px;
-}
-
-#check:checked ~ .sidebar a span{
-    display: none;
-}
-
-#check:checked ~ .sidebar a{
-    font-size: 20px;
-    margin-left: 165px;
-    width: 100%;
-}
 
 .content{
     width: (100% - 250px);
@@ -93,21 +80,13 @@ label #sidebar_btn:hover{
     transition: .5s;
 }
 
-#check:checked ~ .content{
-    margin-left: 60px;
-}
-
-
-#check{
-    display: none;
-}
-
 .mobile_nav{
     display: none;
 }
 
-.left-area i{
+header{
     display: none;
+
 }
 
 @media screen and (max-width: 780px) {
