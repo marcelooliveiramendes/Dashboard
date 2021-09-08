@@ -104,6 +104,10 @@ header{
 
 
 @media screen and (max-width: 780px) {
+    body{
+        min-width: 285px;
+    }
+
     .sidebar{
         display: none;
     }
@@ -133,10 +137,20 @@ header{
         margin-left: 20px;
     }
     
-    .mobile_nav{
+    .mobile_nav{    
+        position: absolute;
+        left: -100%;
         display: block;
-        width: calc(100% - 0%);
+        width: 0px;
     }
+
+    .mobile_nav.active{
+        width: 100%;
+        transition: .3s;
+        overflow: hidden;
+        left: 0px;
+    }
+
     .nav_bar .nav_btn:hover{
         color: #19b3d3;
     }
@@ -153,7 +167,7 @@ header{
         display: block;
         padding-left: 40px;
         letter-spacing: 1px;
-        line-height: 60px;
+        line-height: 100px;
         text-decoration: none;
         box-sizing: border-box;
         transition: .5s;
