@@ -86,12 +86,15 @@ body{
     font-weight: bold;
 }
 
-.content{
+.container{
     width: (100% - 250px);
     margin-left: 250px;
-    padding: 20px;
-    height: 100%;
+    height: 100vh;
     transition: .5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .mobile_nav{
@@ -102,17 +105,22 @@ header{
     display: none;
 }
 
+.content{
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
 
 @media screen and (max-width: 780px) {
-    body{
-        min-width: 285px;
-    }
-
     .sidebar{
         display: none;
     }
     
-    .content{
+    .container{
         margin-left: 0;
         margin-top: 0;
         padding: 10px 20px;
@@ -183,9 +191,6 @@ header{
 
     }
     
-    .mobile_nav.actived{
-        display: none;
-    }
 
     
 }
