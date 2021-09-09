@@ -120,10 +120,30 @@ header h3{
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-
 }
+
+.content table{
+    width: 80%;
+    text-align: center;
+}
+
+.content .abrirRelatorio{
+    width: 120px;
+    height: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(64, 152, 224);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.content .abrirRelatorio:hover{
+    background-color: rgb(19, 73, 155);
+}
+
+
+
 
 
 @media screen and (max-width: 780px) {
@@ -152,10 +172,11 @@ header h3{
         margin-left: 20px;
         font-size: 26px;
     }
+
     header h3{
         margin-left: 20px;
     }
-    
+
     .mobile_nav{    
         position: absolute;
         left: -100%;
