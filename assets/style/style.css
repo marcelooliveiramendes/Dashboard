@@ -142,6 +142,11 @@ header h3{
     background-color: rgb(19, 73, 155);
 }
 
+.content .iniciarReparo{
+    width: 120px;
+    height: 30px;
+    font-weight: bold;
+}
 
 
 
