@@ -165,10 +165,14 @@ header h3{
     }
     
     .container{
+        height: 100%;
         margin-left: 0;
         margin-top: 0;
         padding: 10px 20px;
         transition: 0s;
+    }
+    .content{
+
     }
     
     header{
@@ -242,5 +246,8 @@ header h3{
 @media screen and (max-width: 500px){
     .content{
         width: 97%;
+    }
+    .abrirRelatorio{
+        width: 90px;
     }
 }
