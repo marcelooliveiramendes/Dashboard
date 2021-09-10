@@ -236,8 +236,11 @@ header h3{
     .mobile_nav_items i{
         padding-right: 10px;
 
-    }
-    
+    }   
+}
 
-    
+@media screen and (max-width: 500px){
+    .content{
+        width: 97%;
+    }
 }
