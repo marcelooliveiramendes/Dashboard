@@ -1,5 +1,50 @@
+.content table{
+    width: 70%;
+    text-align: center;
+}
 
+.content .abrirRelatorio{
+    width: 120px;
+    height: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(64, 152, 224);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.content .abrirRelatorio:hover{
+    background-color: rgb(19, 73, 155);
+}
 
+.content .iniciarReparo{
+    width: 120px;
+    height: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(40, 207, 63);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.content .iniciarReparo:hover{
+    background-color: rgb(19, 155, 53);
+}
+
+.content{
+    align-items: center;
+}
+.content div{
+    width: 80%;
+}
+
+.content h3{
+    font-size: 30px;
+}
+
+table{
+
+}
 
 @media screen and (max-width: 1200px) {
     .content table{
@@ -19,4 +64,12 @@
         width: 100%;
     }
     
+}
+@media screen and (max-width: 500px){
+    .content{
+        width: 97%;
+    }
+    .abrirRelatorio{
+        width: 90px;
+    }
 }
