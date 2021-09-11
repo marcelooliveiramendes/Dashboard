@@ -111,16 +111,6 @@ header h3{
 }
 
 
-.content{
-    width: 80%;
-    height: 80%;
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-}
 
 
 @media screen and (max-width: 780px) {
