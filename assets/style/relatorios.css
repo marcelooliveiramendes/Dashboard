@@ -109,6 +109,8 @@
     background-color: red;
     font-size: 20px;
     color: white;
+}.chamadoBtn:hover{
+    background-color: rgb(223, 4, 4);
 }
 
 @media screen and (max-width: 1200px) {
