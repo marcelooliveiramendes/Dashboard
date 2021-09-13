@@ -52,3 +52,104 @@
 .tabela tbody td{
     padding: 3px 0px;
 }
+
+.relatorio{
+    display: none;
+}
+
+.relatorio.show{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #35353549;
+}
+.relatorioCont{
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.relatorioCont i{
+    position:relative;
+    left: 96%;
+    font-size: 24px;  
+    color: #5c5c5c;
+}.relatorioCont i:hover{
+    color: red;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .content table{
+        width: 90%;
+    }
+
+    .tabela thead th:nth-child(3){display: none;}
+
+
+    .tabela tbody tr td:nth-child(3){display: none;}
+}
+@media screen and (max-width: 1050px) {
+    .content{
+        width: 90%;
+        padding: 10px;
+    }
+    .content table{
+        width: 100%;
+    }
+}
+@media  screen and (max-width: 950px) {
+    .tabela thead th{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .relatorioCont{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .content{
+        width: 100%;
+    }
+    .abrirRelatorio{
+        width: 90px;
+    }
+
+    .relatorio.show{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 999999;    
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background-color: #35353549;
+    }
+
+    .relatorioCont{
+        width: calc(100% - 40px);
+        padding: 20px;
+        position: absolute;
+        bottom: 0;
+    }
+
+}
+@media screen and (max-width: 550px) {
+    .tabela thead th:nth-child(4){display: none;}
+    .tabela tbody tr td:nth-child(4){display: none;}
+}
