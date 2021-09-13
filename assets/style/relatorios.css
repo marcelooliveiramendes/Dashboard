@@ -138,8 +138,10 @@
     }
 }
 
-@media screen and (max-width: 760px) {
-    
+@media screen and (max-width: 780px) {
+    .relatorioCont{
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 600px){
@@ -149,6 +151,27 @@
     .abrirRelatorio{
         width: 90px;
     }
+
+    .relatorio.show{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 999999;    
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background-color: #35353549;
+    }
+
+    .relatorioCont{
+        width: calc(100% - 40px);
+        padding: 20px;
+        position: absolute;
+        bottom: 0;
+    }
+
 }
 @media screen and (max-width: 550px) {
     .tabela thead th:nth-child(4){display: none;}
