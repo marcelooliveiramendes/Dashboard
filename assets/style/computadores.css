@@ -193,7 +193,7 @@ table{
 }
 
 @media screen and (max-width: 780px) {
-    .relatorioCont{
+    .addCompContent{
         width: 80%;
     }
 }
