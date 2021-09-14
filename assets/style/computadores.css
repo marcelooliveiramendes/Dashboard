@@ -15,14 +15,26 @@
     text-align: center;
 }
 
+.tools{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+}
+.organizar{
+    width: 200px;
+}
+
+.searchBox{
+    width: 300px;
+    background-color: purple;
+}
+
 table{
     max-height: 300px;
     overflow-x: auto;
 }
 
-.content div{
-    width: 80%;
-}
 
 .content h3{
     font-size: 30px;
