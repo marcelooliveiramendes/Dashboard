@@ -22,6 +22,28 @@
     align-items: center;
     margin-bottom: 20px;
 }
+.tools .left-side,
+.tools .right-side{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tools .left-side{
+    justify-content: end;
+    align-items: center;
+}
+.tools .left-side button{
+    width: 30%;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(12, 230, 12);
+    color: white;
+    font-weight: bold;
+}
+
 
 .organizar{
     width: 250px;
@@ -48,6 +70,7 @@
 .searchBox input{
     width: calc(100% - 30px);
     height: 30px;
+    font-size: 20;
     border: none;
     outline: none;
     padding-left: 20px;
