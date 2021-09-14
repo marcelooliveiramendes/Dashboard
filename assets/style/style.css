@@ -154,7 +154,7 @@ header h3{
 
     .mobile_nav.active{
         width: 100%;
-        height: 100vh;
+        height: calc(100vh - 60px);
         background-color: rgba(57, 58, 59, 0.342);
         transition: .3s;
         overflow: hidden;
