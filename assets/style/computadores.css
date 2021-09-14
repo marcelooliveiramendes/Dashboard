@@ -22,6 +22,7 @@
     align-items: center;
     margin-bottom: 20px;
 }
+
 .tools .left-side,
 .tools .right-side{
     width: 50%;
@@ -43,7 +44,6 @@
     color: white;
     font-weight: bold;
 }
-
 
 .organizar{
     width: 250px;
@@ -132,4 +132,15 @@ table{
 
 .tabela tbody td .deleteComp:hover{
     background-color: rgb(172, 6, 6);
+}
+
+.addComp{
+    display: none;
+}
+
+.addComp.showAdd{
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    background-color: black;
 }
