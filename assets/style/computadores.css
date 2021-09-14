@@ -139,8 +139,14 @@ table{
 }
 
 .addComp.showAdd{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100vw;
     height: 100vh;
-    z-index: 9999;
-    background-color: black;
+    background-color: #35353549;
 }
