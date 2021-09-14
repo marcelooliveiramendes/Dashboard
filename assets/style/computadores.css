@@ -58,3 +58,17 @@ table{
 .tabela tbody td{
     padding: 3px 0px;
 }
+
+.tabela tbody td .deleteComp{
+    width: 90px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-weight: bold;
+} 
+
+.tabela tbody td .deleteComp:hover{
+    background-color: rgb(172, 6, 6);
+}
