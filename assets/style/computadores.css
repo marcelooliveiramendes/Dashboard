@@ -39,7 +39,7 @@
     width: 30%;
     height: 30px;
     border: none;
-    border-radius: 15px;
+    border-radius: 5px;
     background-color: rgb(12, 230, 12);
     color: white;
     font-weight: bold;
@@ -123,7 +123,7 @@ table{
 .tabela tbody td .deleteComp{
     width: 90px;
     height: 30px;
-    border-radius: 15px;
+    border-radius: 5px;
     border: none;
     background-color: rgb(255, 0, 0);
     color: white;
