@@ -92,6 +92,43 @@
     color: red;
 }
 
+
+.addFunc{
+    display: none;
+}
+.addFunc.show{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999999;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #35353549;
+}
+
+.addFuncCont{
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;   
+}
+
+.addFuncCont i{
+    position:relative;
+    left: 96%;
+    font-size: 24px;  
+    color: #5c5c5c;
+}.addFuncCont i:hover{
+    color: red;
+}
+
 @media screen and (max-width: 1200px) {
     .content table{
         width: 90%;
@@ -127,11 +164,27 @@
     .content{
         width: 100%;
     }
-    .abrirRelatorio{
-        width: 90px;
-    }
 
     .editarFunc.show{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 999999;    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background-color: #35353549;
+    }
+
+    .editarFuncCont{
+        width: calc(100% - 40px);
+        padding: 20px;
+        position: absolute;
+        bottom: 0;
+    }
+    .addFunc.show{
         position: absolute;
         top: 0;
         left: 0;
@@ -144,7 +197,7 @@
         background-color: #35353549;
     }
 
-    .editarFuncCont{
+    .addFuncCont{
         width: calc(100% - 40px);
         padding: 20px;
         position: absolute;

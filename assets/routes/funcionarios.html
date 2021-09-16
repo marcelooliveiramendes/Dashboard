@@ -44,22 +44,14 @@
 
     <div class="container">
         <div class="content">
-            <div class="info">
-                <div class="relatosQuant">
-
-                </div>
-                <div class="totalQuant">
-
-                </div>
-                <div>
-
-                </div>
-            </div>
+            
             
             <div>
                 <h3>Funcionários</h3>
             </div>
-            
+            <div>
+                <button onclick="adicionarFunc()">Adicionar</button>
+            </div>
             <table class="tabela">
                 <thead>
                     <th>Nome</th>
@@ -74,7 +66,7 @@
                         <td>Professor</td>
                         <td>
                             <Button onclick="editarForm()" class="editarBtn">Editar</Button>
-                            <Button onclick="editarForm()" class="apagarBtn">Apagar</Button>
+                            <Button onclick="apagarUser()" class="apagarBtn">Apagar</Button>
                         </td>
                     </tr>
                     <tr>
@@ -103,6 +95,27 @@
     <div class="editarFunc">
         <div class="editarFuncCont">
             <i class="far fa-times-circle closeBtn" onclick="fecharForm()"></i>
+            <p>Nome:</p>
+            <input type="text">
+
+            <p>Email:</p>  
+            <input type="text">
+
+            <p>Cargo:</p>
+            <select name="cargo" id="cargo">
+                <option value="Professor">Professor</option>
+                <option value="Adm">Administrador</option>
+                <option value="Diretor">Diretor</option>
+            </select>
+            <br>
+
+            <button class="chamadoBtn">Confirmar</button>
+        </div>
+    </div>
+
+    <div class="addFunc">
+        <div class="addFuncCont">
+            <i class="far fa-times-circle closeBtn" onclick="fecharAddFunc()"></i>
             <p>Nome:</p>
             <input type="text">
 
