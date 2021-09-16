@@ -55,11 +55,11 @@
     color: white;
 }
 
-.popup{
+.editarFunc{
     display: none;
 }
 
-.popup.showAdd{
+.editarFunc.showAdd{
     position: absolute;
     top: 0;
     left: 0;
@@ -118,7 +118,7 @@
 }
 
 @media screen and (max-width: 780px) {
-    .relatorioCont{
+    .editarFuncCont{
         width: 80%;
     }
 }
@@ -131,7 +131,7 @@
         width: 90px;
     }
 
-    .relatorio.show{
+    .editarFunc.show{
         position: absolute;
         top: 0;
         left: 0;
@@ -144,7 +144,7 @@
         background-color: #35353549;
     }
 
-    .relatorioCont{
+    .editarFuncCont{
         width: calc(100% - 40px);
         padding: 20px;
         position: absolute;
