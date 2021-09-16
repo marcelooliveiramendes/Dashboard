@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/funcionarios.css">
     <script src="https://kit.fontawesome.com/9a7b0ad27e.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
@@ -43,7 +44,59 @@
 
     <div class="container">
         <div class="content">
-            s
+            <div class="info">
+                <div class="relatosQuant">
+
+                </div>
+                <div class="totalQuant">
+
+                </div>
+                <div>
+
+                </div>
+            </div>
+            
+            <div>
+                <h3>Funcionários</h3>
+            </div>
+            
+            <table class="tabela">
+                <thead>
+                    <th>Nome</th>
+                    <th>Email</th>
+                    <th>Cargo</th>
+                    <th>Controle</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Afonso Rapadura</td>
+                        <td>afonsorapadura@gmail.com</td>
+                        <td>Professor</td>
+                        <td>
+                            <Button onclick="editarForm()" class="editarBtn">Editar</Button>
+                            <Button onclick="editarForm()" class="apagarBtn">Apagar</Button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Afonso Rapadura</td>
+                        <td>afonsorapadura@gmail.com</td>
+                        <td>Professor</td>
+                        <td>
+                            <Button onclick="editarForm()" class="editarBtn">Editar</Button>
+                            <Button onclick="apagarUser()" class="apagarBtn">Apagar</Button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Afonso Rapadura</td>
+                        <td>afonsorapadura@gmail.com</td>
+                        <td>Professor</td>
+                        <td>
+                            <Button onclick="editarForm()" class="editarBtn">Editar</Button>
+                            <Button onclick="apagarUser()" class="apagarBtn">Apagar</Button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 
