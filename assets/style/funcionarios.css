@@ -129,6 +129,17 @@
     color: red;
 }
 
+.addFuncBtn{
+    width: 30%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #d4d4d4;
+    background-color: rgb(42, 223, 18);
+    color: white;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
 @media screen and (max-width: 1200px) {
     .content table{
         width: 90%;

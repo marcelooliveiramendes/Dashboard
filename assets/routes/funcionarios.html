@@ -50,7 +50,7 @@
                 <h3>Funcionários</h3>
             </div>
             <div>
-                <button onclick="adicionarFunc()">Adicionar</button>
+                <button class="addFuncBtn" onclick="adicionarFunc()">Adicionar</button>
             </div>
             <table class="tabela">
                 <thead>
@@ -96,10 +96,16 @@
         <div class="editarFuncCont">
             <i class="far fa-times-circle closeBtn" onclick="fecharForm()"></i>
             <p>Nome:</p>
-            <input type="text">
+            <input type="text" name="" id="">
 
             <p>Email:</p>  
-            <input type="text">
+            <input type="text" name="" id="">
+
+            <p>Senha:</p>  
+            <input type="password" name="" id="">
+
+            <p>Confirmar senha:</p>  
+            <input type="password" name="" id="">
 
             <p>Cargo:</p>
             <select name="cargo" id="cargo">
