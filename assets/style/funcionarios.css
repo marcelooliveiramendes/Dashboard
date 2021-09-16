@@ -55,11 +55,11 @@
     color: white;
 }
 
-.editarFunc{
+.popup{
     display: none;
 }
 
-.editarFunc.showAdd{
+.popup.showAdd{
     position: absolute;
     top: 0;
     left: 0;
